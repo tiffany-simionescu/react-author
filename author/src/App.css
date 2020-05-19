@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.three-book-list {
+  display: flex;
+  margin: 20px auto;
+}
+
+.three-book-list button {
+  margin: 0 auto;
+}
+
+.three-book-list-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bookcard-button {
+  display: flex;
+  align-content: center;
 }
