@@ -9,16 +9,19 @@ class ThreeBookList extends Component {
       <div>
         <div className="three-book-list">
           <BookCard
+            url="https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg"
             cardTitle="Book Number One"
             cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mi at lacus tempus sodales. Praesent placerat in risus a facilisis. Phasellus a lectus quis ex aliquam mattis. Ut est magna, pretium in ullamcorper non, mattis a massa. Praesent at tempor dolor, ornare elementum erat. Ut libero turpis, vestibulum at."
             buttonText="Amazon"
           />
           <BookCard
+            url="https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg"
             cardTitle="Book Number Two"
             cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mi at lacus tempus sodales. Praesent placerat in risus a facilisis. Phasellus a lectus quis ex aliquam mattis. Ut est magna, pretium in ullamcorper non, mattis a massa. Praesent at tempor dolor, ornare elementum erat. Ut libero turpis, vestibulum at."
             buttonText="Google"
           />
           <BookCard
+            url="https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg"
             cardTitle="Book Number Three"
             cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mi at lacus tempus sodales. Praesent placerat in risus a facilisis. Phasellus a lectus quis ex aliquam mattis. Ut est magna, pretium in ullamcorper non, mattis a massa. Praesent at tempor dolor, ornare elementum erat. Ut libero turpis, vestibulum at."
             buttonText="Apple"
