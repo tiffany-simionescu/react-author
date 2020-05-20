@@ -22,13 +22,27 @@
   transform: scale(1.05);
 }
 
-.nav-navigation {
+/* .nav-navigation {
   margin: 0 auto;
+} */
+
+.nav {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.nav h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
 }
 
 .name {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   font-family: 'Princess Sofia', cursive;
   padding: 15px;
 }
