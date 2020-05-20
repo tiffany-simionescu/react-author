@@ -7,7 +7,7 @@ import {
 
 function MyFooter() {
   return(
-    <Footer size="mini" style={{ background: '#573E67' }}>
+    <Footer size="mini" style={{ background: '#4E4950' }}>
     <FooterSection type="bottom" style={{ margin: '0 auto' }}>
         <FooterLinkList>
                 <a href="http://google.com">Home</a>

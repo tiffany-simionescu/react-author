@@ -22,16 +22,6 @@
   transform: scale(1.05);
 }
 
-/* .nav-navigation {
-  margin: 0 auto;
-} */
-
-.nav {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
 .nav h1 {
   position: absolute;
   top: 30%;
@@ -41,8 +31,32 @@
 }
 
 .name {
-  /* display: flex;
-  justify-content: center; */
   font-family: 'Princess Sofia', cursive;
   padding: 15px;
+}
+
+.tinted-image {
+  position: absolute;
+  top: 60%;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+  background: 
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.95) 450px, 
+    rgba(0, 0, 0, 0)
+  ),
+  url("https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.nav-image h5 {
+  position: absolute;
+  bottom: -270px;
+  left: 15px;
+  color: white;
+  z-index: 80;
+  width: 45%;
+  line-height: 1.5;
+  padding: 20px;
 }
